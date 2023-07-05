@@ -1,0 +1,16 @@
+package com.example.juda.chat;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ChatInfo {
+    public Map<String,Boolean> users = new HashMap<>(); //채팅방 유저
+    public Map<String,Comment> comments = new HashMap<>(); //채팅 메시지
+
+    public static class Comment
+    {
+        public String uid;
+        public String message;
+        public Object timestamp;
+    }
+}

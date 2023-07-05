@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_category.MainCategoryActivity"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:id="@+id/main_cate_line1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/mainCategory_ment01"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="주다에서 관심사 기반으로 멘토를 추천해줘요."
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e9ecef"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_cate_line2"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_below="@id/main_cate_line1"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btn_employment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/employ"/>
+        <Button
+            android:id="@+id/btn_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/exercise"/>
+        <Button
+            android:id="@+id/btn_real_life"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/real_life"/>
+    </LinearLayout>
+
+</RelativeLayout>

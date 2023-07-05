@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Juda</string>
+    <string name="main_category_title">관심분야를 골라주세요</string>
+    <string name="employment">취업 / 진로</string>
+    <string name="exercise">운동</string>
+    <string name="real_life">실생활</string>
+    <string name="title_activity_find_menti">FindMentiActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="all_post">Search</string>
+    <string name="my_page">Profile</string>
+    <string name="mainCategory_ment01">지금 관심있는 주제가 있나요?</string>
 </resources>
